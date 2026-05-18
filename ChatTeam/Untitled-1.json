@@ -1,0 +1,56 @@
+{
+  "users": {
+    "user001": {
+      "id": "user001",
+      "name": "Nguyễn Văn A",
+      "avatar": "https://i.pravatar.cc/150?u=user001",
+      "email": "vana@example.com",
+      "bio": "Admin Voichat",
+      "createdAt": 1747650000000
+    },
+    "user002": {
+      "id": "user002",
+      "name": "Trần Thị B",
+      "avatar": "https://i.pravatar.cc/150?u=user002",
+      "email": "thib@example.com",
+      "bio": "Designer",
+      "createdAt": 1747651000000
+    }
+  },
+  "friends": {
+    "user001": {
+      "user002": true
+    },
+    "user002": {
+      "user001": true
+    }
+  },
+  "presence": {
+    "user001": {
+      "online": true,
+      "lastSeen": 1747654321000
+    },
+    "user002": {
+      "online": true,
+      "lastSeen": 1747654000000
+    }
+  },
+  "messages": {
+    "conv_user001_user002": {
+      "-m001": {
+        "id": "-m001",
+        "senderId": "user001",
+        "text": "Chào bạn! App đã chạy realtime chưa?",
+        "time": 1747654100000,
+        "type": "text"
+      },
+      "-m002": {
+        "id": "-m002",
+        "senderId": "user002",
+        "text": "Đang test đây, realtime ổn rồi 🔥",
+        "time": 1747654200000,
+        "type": "text"
+      }
+    }
+  }
+}
